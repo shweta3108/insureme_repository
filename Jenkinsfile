@@ -1,7 +1,7 @@
 def containerName="insure-me"
 def tag="latest"
 def dockerHubUser="shwetas27"
-def httpPort="8082"
+def httpPort="8083"
 
 node {
     stage('git Checkout') {
