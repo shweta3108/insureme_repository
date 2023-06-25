@@ -43,7 +43,8 @@ node {
     } 
     stage('Selenium Test') {
         sleep(time: 60, unit: 'SECONDS') 
-        echo "Selenium run successfully" 
+        sh 'sudo java -jar insure_me.jar'
+           
     }     
    
 }
